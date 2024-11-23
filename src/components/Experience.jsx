@@ -52,7 +52,7 @@ const Experience = () => {
   });
 
   useEffect(() => {
-    const geometry = new THREE.IcosahedronGeometry(1, 140);
+    const geometry = new THREE.IcosahedronGeometry(1, 100);
     const mergedGeometry = mergeVertices(geometry);
     mergedGeometry.computeTangents();
     geometryRef.current = mergedGeometry;
